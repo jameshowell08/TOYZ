@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+    <link rel="stylesheet" href="./Gallery.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <script src="Event.js"></script>
+</head>
+<body>
+    <header>
+        <nav class = "nav-bar">
+            <div class = "left" >
+                <div class = "logo">
+                    <img src="./Assets/HiToysLogo.png" alt="" >
+                </div>
+                <div class = "text">
+                    discover your
+                    inner child
+                </div>
+                
+            </div>
+            <div  class = right>
+                <ul  id="navigation" class = "navigation">
+                    <li><a href="Home.html" class="hyperlink">Home</a></li>
+                    <li><a href="Shop.html" class="hyperlink">Shop</a></li>
+                    <li><a href="Event.html" class="hyperlink">Event</a></li>
+                    <li><a href="Gallery.html" class="hyperlink">Gallery</a></li>
+                    <li><a href="Regiter.html" class="hyperlink">Register</a></li>
+                </ul>
+                <i onclick="toggleMenu('block')" class="fa fa-bars menu-ico"></i>
+                <i onclick="toggleMenu('none')" id="close-ico" class="fa fa-times-circle close-ico"></i>
+          
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="content-fold">
+                <img class="img" src="./Assets/toyrus1.jpg" alt="">
+                <img class="img" src="./Assets/toyrus2.jpg" alt="">
+        </div>
+        <div class="content-fold1">
+            <img class="img1" src="./Assets/toyrus3.jpg" alt="">
+         </div>
+         <div class="content-fold">
+            <img class="img" src="./Assets/girl.jpg" alt="">
+            <img class="img" src="./Assets/boy.jpg" alt="">
+         </div>
+         <div class="content-fold">
+            <img class="img" src="./Assets/boy2.jp.jpg" alt="">
+            <img class="img" src="./Assets/boy3.jpg" alt="">
+         </div>
+
+    </div>
+    <footer class="footer">
+        <div class = findUs>
+            <h3>Find Us</h3>
+        </div>
+        <div class="social">
+            <div class = "social1">
+                <img src="./Assets/facebook.png" alt="">
+            </div>
+            <div class = "social1">
+                <img src="./Assets/TWITTER.png" alt="">
+            </div>
+            <div class = "social1">
+                <img src="./Assets/ig.png" alt="">
+            </div>
+            <div class = "social1">
+                <img src="./Assets/linkedin.png" alt="">
+            </div>
+        </div>
+        <div class = "copyright">
+            <h3>@2023, Hi-TOYZ,ALL RIGHT RESERVED</h3>
+        </div>
+    </footer>
+
+</body>
+</html>
